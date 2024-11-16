@@ -2,6 +2,16 @@
 
 Welcome to the **Viterbi Algorithm Visualizer**, an interactive tool designed to help users understand and explore how the Viterbi algorithm works for part-of-speech (POS) tagging. This application supports three languages: **English**, **Swedish**, and **Korean**. It builds upon the foundation of the repository [PartOfSpeech](https://github.com/emma-horton/PartsOfSpeech).
 
+<figure>
+    <img src="images/POSinterface" alt="POSInterface" width=100%>
+<!--     <figcaption>Part of Speech Tagging Interface</figcaption> -->
+</figure>
+
+---
+
+🌐 **[Try Viterbi Visualizer here!]([https://runnify-web-f2150b469ce7.herokuapp.com](https://partsofspeech-8f2cb5c28301.herokuapp.com))**  
+*Available on desktop only.*
+
 ---
 
 ## 🎯 **Features**
@@ -104,7 +114,3 @@ This project is licensed under the [MIT License](LICENSE).
 Special thanks to [original repository author](#) for their foundational work, as well as the creators of the corpora used for POS tagging.
 
 
-<figure>
-    <img src="images/POSinterface" alt="POSInterface" width="1000">
-<!--     <figcaption>Part of Speech Tagging Interface</figcaption> -->
-</figure>
