@@ -46,7 +46,7 @@ Run the application locally:
 ```bash
 python app.py
 ```
-Open your browser and navigate to `http://localhost:5000` to begin exploring!
+Open your browser and navigate to `http://localhost:5001` to begin exploring!
 
 ---
 
