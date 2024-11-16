@@ -11,10 +11,6 @@ Welcome to the **Viterbi Algorithm Visualizer** – your interactive guide to un
 ## 🖥️ **What is the Viterbi Algorithm Visualizer?**
 The **Viterbi Algorithm Visualizer** brings learning to life by letting you step through how the Viterbi algorithm works for POS tagging. With support for **English**, **Swedish**, and **Korean**, this tool demonstrates the algorithm’s effectiveness across diverse linguistic structures.
 
-<div align="center">
-    <img src="images/POSinterface" alt="POS Interface" width="100%">
-</div>
-
 ---
 
 ## ✨ **Features**
