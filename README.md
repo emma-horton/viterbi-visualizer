@@ -1,116 +1,107 @@
-# Viterbi Algorithm Visualizer for Part-of-Speech Tagging
 
-Welcome to the **Viterbi Algorithm Visualizer**, an interactive tool designed to help users understand and explore how the Viterbi algorithm works for part-of-speech (POS) tagging. This application supports three languages: **English**, **Swedish**, and **Korean**. It builds upon the foundation of the repository [PartOfSpeech](https://github.com/emma-horton/PartsOfSpeech).
+# **Viterbi Algorithm Visualizer for Part-of-Speech Tagging** 🌍✨  
 
-<figure>
-    <img src="images/POSinterface" alt="POSInterface" width=100%>
-<!--     <figcaption>Part of Speech Tagging Interface</figcaption> -->
-</figure>
+Welcome to the **Viterbi Algorithm Visualizer** – your interactive guide to understanding the Viterbi algorithm for part-of-speech (POS) tagging! This tool is perfect for linguists, students, and developers who want to delve into sequence modeling and Hidden Markov Models (HMMs).  
 
----
-
-🌐 **[Try Viterbi Visualizer here!]([https://runnify-web-f2150b469ce7.herokuapp.com](https://partsofspeech-8f2cb5c28301.herokuapp.com))**  
-*Available on desktop only.*
+🌐 **[Try it out now!](https://partsofspeech-8f2cb5c28301.herokuapp.com)**  
+*Note: Desktop-only access.*
 
 ---
 
-## 🎯 **Features**
+## 🖥️ **What is the Viterbi Algorithm Visualizer?**
+The **Viterbi Algorithm Visualizer** brings learning to life by letting you step through how the Viterbi algorithm works for POS tagging. With support for **English**, **Swedish**, and **Korean**, this tool demonstrates the algorithm’s effectiveness across diverse linguistic structures.
 
-- **Interactive Visualization**: Step through the Viterbi algorithm to see how it determines the most probable sequence of tags for a given sentence.
-- **Multilingual Support**: Choose between English, Swedish, or Korean datasets to explore the algorithm's effectiveness across different languages.
-- **Test Set Accuracy**:
-  - **English**: 91.3%
-  - **Swedish**: 90.2%
-  - **Korean**: 79.2%
-- **Educational Focus**: Designed for linguists, students, and developers who want to learn more about sequence modeling and HMMs (Hidden Markov Models).
+<div align="center">
+    <img src="images/POSinterface" alt="POS Interface" width="100%">
+</div>
 
 ---
 
-## 📂 Getting Started
+## ✨ **Features**
+- **Interactive Visualization**: Observe the Viterbi algorithm in action as it computes the most probable sequence of POS tags for any given sentence.  
+- **Multilingual Support**: Switch between English, Swedish, or Korean datasets to explore how linguistic differences impact the algorithm.  
+- **Accuracy Metrics**:
+  - **English**: 91.3%  
+  - **Swedish**: 90.2%  
+  - **Korean**: 79.2%  
+- **Educational Focus**: Ideal for anyone curious about HMMs and sequence tagging.
 
-### 1. Clone the Repository
+---
+
+## 🚀 **Get Started in 3 Steps**
+### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/emma-horton/viterbi-visualizer.git
 cd viterbi-visualizer
 ```
 
-### 2. Install Dependencies
-This project uses Python. Install the required libraries with:
+### 2️⃣ Install Dependencies
+Ensure you have Python installed, then run:
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Run the Application
-Launch the application locally:
+### 3️⃣ Launch the Application
+Run the application locally:
 ```bash
 python app.py
 ```
-
-Navigate to `http://localhost:5000` in your web browser to start exploring!
-
----
-
-## 🛠️ How It Works
-
-The application implements the **Viterbi algorithm**, a dynamic programming technique that computes the most probable sequence of POS tags for a given sentence. Key components include:
-
-- **Transition and Emission Probabilities**: Derived from annotated training datasets for English, Swedish, and Korean.
-- **Dynamic Programming Table**: Displays intermediate steps of the algorithm.
-- **Final Output**: Shows the sentence with its predicted POS tags.
+Open your browser and navigate to `http://localhost:5000` to begin exploring!
 
 ---
 
-## 📚 Data Sources
+## 🛠️ **How It Works**
+The visualizer employs the **Viterbi algorithm**, a dynamic programming technique that predicts the most probable POS tag sequence for a sentence. Key components include:
 
-This project builds upon the repository [PartOfSpeech](https://github.com/emma-horton/PartsOfSpeech), which provided pretrained models and training datasets for POS tagging.
+- **Transition & Emission Probabilities**: Generated from annotated datasets in English, Swedish, and Korean.  
+- **Final Output**: Presents the sentence annotated with predicted POS tags.
 
-The datasets used for evaluation are sourced from publicly available corpora for English, Swedish, and Korean. Further preprocessing and training have been done to achieve the following test set accuracies:
+---
 
-- **English**: 91.3%
-- **Swedish**: 90.2%
+## 📚 **Data Sources**
+This project extends the foundational work in [PartOfSpeech](https://github.com/emma-horton/PartsOfSpeech), using its pretrained models and datasets. The corpora used for POS tagging were preprocessed and trained to achieve high accuracy rates:
+
+- **English**: 91.3%  
+- **Swedish**: 90.2%  
 - **Korean**: 79.2%
 
 ---
 
-## 🛠️ Customization
+## 🛠️ **Future Improvements**
+The following enhancements are planned for future iterations of the visualizer:  
 
-You can extend or adapt the visualizer by:
-
-- Adding new languages or datasets.
-- Modifying the visualization logic for enhanced clarity.
-- Tuning the model to improve accuracies for low-performing languages like Korean.
+- **Dynamic Programming Table**: Display step-by-step calculations of probabilities to improve user understanding.  
+- **Enhanced User Interface**: Introduce more intuitive controls and visual cues.  
+- **Expanded Language Support**: Add new languages with unique linguistic structures.  
 
 ---
 
-## 🌟 Contributions
+## 🌟 **Contribute and Collaborate**
+We’d love your help in enhancing this project! Here’s how to contribute:  
 
-Contributions are welcome! To contribute:
-
-1. Fork the repository.
-2. Create a feature branch:
+1. **Fork the repository.**  
+2. **Create a new branch:**  
    ```bash
    git checkout -b feature-name
    ```
-3. Commit your changes:
+3. **Make your changes and commit them:**  
    ```bash
    git commit -m "Add a new feature"
    ```
-4. Push the branch:
+4. **Push your branch:**  
    ```bash
    git push origin feature-name
    ```
-5. Submit a pull request.
+5. **Open a pull request!**  
 
 ---
 
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
+## 📜 **License**
+This project is licensed under the [MIT License](LICENSE), so feel free to use and adapt it as needed.  
 
 ---
 
-## 🙌 Acknowledgements
+## 🙏 **Acknowledgements**
+Special thanks to the [PartOfSpeech repository](https://github.com/emma-horton/PartsOfSpeech) for providing a strong foundation and to the creators of the datasets that made this visualizer possible.
 
-Special thanks to [original repository author](#) for their foundational work, as well as the creators of the corpora used for POS tagging.
-
-
+---
