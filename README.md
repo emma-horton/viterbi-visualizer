@@ -1,4 +1,7 @@
-
+![HTML](https://img.shields.io/badge/HTML-5-orange?logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-3-blue?logo=css3&logoColor=white)
+![D3.js](https://img.shields.io/badge/D3.js-Data%20Visualization-red?logo=d3.js&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-Python%20Framework-lightgrey?logo=flask&logoColor=white)
 # **Viterbi Algorithm Visualizer for Part-of-Speech Tagging** 🌍✨  
 
 Welcome to the **Viterbi Algorithm Visualizer** – your interactive guide to understanding the Viterbi algorithm for part-of-speech (POS) tagging! This tool is perfect for linguists, students, and developers who want to delve into sequence modeling and Hidden Markov Models (HMMs).  
