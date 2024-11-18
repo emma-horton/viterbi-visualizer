@@ -95,11 +95,6 @@ We’d love your help in enhancing this project! Here’s how to contribute:
 
 ---
 
-## 📜 **License**
-This project is licensed under the [MIT License](LICENSE), so feel free to use and adapt it as needed.  
-
----
-
 ## 🙏 **Acknowledgements**
 Special thanks to the [PartOfSpeech repository](https://github.com/emma-horton/PartsOfSpeech) for providing a strong foundation and to the creators of the datasets that made this visualizer possible.
 
