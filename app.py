@@ -81,7 +81,10 @@ def pos_tagger(test_sentence, lang):
                 V[t][st] = max_log_prob
                 backpointer[t][st] = prev_st
 
-        last_state = max(V[-1], key=V[-1].get)
+        (max_final_log_prob, last_state) = max(
+        (V[len(obs)-1][prev_st] + log(trans_p.prob((prev_st, '</s>'))), prev_st)
+        for prev_st in states
+        )
         best_path = []
         t = len(obs) - 1
         while last_state is not None:
