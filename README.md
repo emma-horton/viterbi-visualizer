@@ -93,9 +93,3 @@ We’d love your help in enhancing this project! Here’s how to contribute:
    ```
 5. **Open a pull request!**  
 
----
-
-## 🙏 **Acknowledgements**
-Special thanks to the [PartOfSpeech repository](https://github.com/emma-horton/PartsOfSpeech) for providing a strong foundation and to the creators of the datasets that made this visualizer possible.
-
----
