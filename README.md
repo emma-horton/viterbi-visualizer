@@ -9,12 +9,10 @@ Welcome to the **Viterbi Algorithm Visualizer** – your interactive guide to un
 🌐 **[Try it out now!](https://partsofspeech-8f2cb5c28301.herokuapp.com)**  
 *Note: Desktop-only access.*
 
----
 
 ## 🖥️ **What is the Viterbi Algorithm Visualizer?**
 The **Viterbi Algorithm Visualizer** brings learning to life by letting you step through how the Viterbi algorithm works for POS tagging. With support for **English**, **Swedish**, and **Korean**, this tool demonstrates the algorithm’s effectiveness across diverse linguistic structures.
 
----
 
 ## ✨ **Features**
 - **Interactive Visualization**: Observe the Viterbi algorithm in action as it computes the most probable sequence of POS tags for any given sentence.  
@@ -25,7 +23,6 @@ The **Viterbi Algorithm Visualizer** brings learning to life by letting you step
   - **Korean**: 79.2%  
 - **Educational Focus**: Ideal for anyone curious about HMMs and sequence tagging.
 
----
 
 ## 🚀 **Get Started in 3 Steps**
 ### 1️⃣ Clone the Repository
@@ -47,7 +44,6 @@ python app.py
 ```
 Open your browser and navigate to `http://localhost:5001` to begin exploring!
 
----
 
 ## 🛠️ **How It Works**
 The visualizer employs the **Viterbi algorithm**, a dynamic programming technique that predicts the most probable POS tag sequence for a sentence. Key components include:
@@ -56,8 +52,6 @@ The visualizer employs the **Viterbi algorithm**, a dynamic programming techniqu
 - **Final Output**: Presents the sentence annotated with predicted POS tags.
 
 
----
-
 ## 🛠️ **Future Improvements**
 The following enhancements are planned for future iterations of the visualizer:  
 
@@ -65,5 +59,4 @@ The following enhancements are planned for future iterations of the visualizer:
 - **Enhanced User Interface**: Introduce more intuitive controls and visual cues.  
 - **Expanded Language Support**: Add new languages with unique linguistic structures.  
 
---- 
 
