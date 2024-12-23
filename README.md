@@ -55,14 +55,6 @@ The visualizer employs the **Viterbi algorithm**, a dynamic programming techniqu
 - **Transition & Emission Probabilities**: Generated from annotated datasets in English, Swedish, and Korean.  
 - **Final Output**: Presents the sentence annotated with predicted POS tags.
 
----
-
-## 📚 **Data Sources**
-This project extends the foundational work in [PartOfSpeech](https://github.com/emma-horton/PartsOfSpeech), using its pretrained models and datasets. The corpora used for POS tagging were preprocessed and trained to achieve high accuracy rates:
-
-- **English**: 91.3%  
-- **Swedish**: 90.2%  
-- **Korean**: 79.2%
 
 ---
 
@@ -73,23 +65,5 @@ The following enhancements are planned for future iterations of the visualizer:
 - **Enhanced User Interface**: Introduce more intuitive controls and visual cues.  
 - **Expanded Language Support**: Add new languages with unique linguistic structures.  
 
----
-
-## 🌟 **Contribute and Collaborate**
-We’d love your help in enhancing this project! Here’s how to contribute:  
-
-1. **Fork the repository.**  
-2. **Create a new branch:**  
-   ```bash
-   git checkout -b feature-name
-   ```
-3. **Make your changes and commit them:**  
-   ```bash
-   git commit -m "Add a new feature"
-   ```
-4. **Push your branch:**  
-   ```bash
-   git push origin feature-name
-   ```
-5. **Open a pull request!**  
+--- 
 
